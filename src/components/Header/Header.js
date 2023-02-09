@@ -27,12 +27,8 @@ const Header = (prop) => {
   const [search, setSearch] = useState('');
 
   const searchRef = createRef();
-  const bannerMessage = 'Free shipping worldwide';
-  const searchSuggestions = [
-    'Oversize sweaters',
-    'Lama Pajamas',
-    'Candles Cinnamon',
-  ];
+  const bannerMessage = 'envios a todo lima';
+  const searchSuggestions = ['Ramos', 'Cajas', 'Paquetes personalizados'];
 
   const handleHover = (navObject) => {
     if (navObject.category) {
@@ -152,7 +148,7 @@ const Header = (prop) => {
             >
               <Icon symbol={'bag'}></Icon>
               <div className={styles.bagNotification}>
-                <span>1</span>
+                <span>0</span>
               </div>
             </button>
             <div className={styles.notificationContainer}>
@@ -167,7 +163,7 @@ const Header = (prop) => {
             showSearch === true ? styles.show : styles.hide
           }`}
         >
-          <h4>What are you looking for?</h4>
+          <h4>Que estás buscando</h4>
           <form className={styles.searchForm} onSubmit={(e) => handleSearch(e)}>
             <FormInputField
               ref={searchRef}

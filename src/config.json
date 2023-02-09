@@ -27,15 +27,15 @@
       "subTitle": "Info",
       "links": [
         {
-          "text": "About Us",
+          "text": "Nosotros",
           "link": "/about"
         },
         {
-          "text": "Journal",
+          "text": "Blog",
           "link": "/blog"
         },
         {
-          "text": "Privacy Policy",
+          "text": "Privacidad",
           "link": "/support#policy"
         }
       ]
@@ -48,80 +48,60 @@
           "link": "/faq"
         },
         {
-          "text": "Contact Us",
+          "text": "Contactanos",
           "link": "/support#contact"
         },
         {
-          "text": "Shipping & Returns",
+          "text": "Envios y devoluciones",
           "link": "/support#returns"
-        },
-        {
-          "text": "How to use this theme",
-          "link": "/how-to-use"
         }
       ]
     }
   ],
   "headerLinks": [
     {
-      "menuLabel": "Shop",
+      "menuLabel": "Comprar",
       "menuLink": "/shop",
       "category": [
         {
-          "categoryLabel": "woman",
+          "categoryLabel": "flores",
           "submenu": [
             {
-              "menuLabel": "All clothing",
+              "menuLabel": "Ramos usaré lo que me sobró del telo",
               "menuLink": "/shop"
             },
             {
-              "menuLabel": "sweatshirts & hoodies",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "jackets",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "trousers",
+              "menuLabel": "Ramos la cagué",
               "menuLink": "/shop"
             }
           ]
         },
         {
-          "categoryLabel": "men",
+          "categoryLabel": "cajas",
           "submenu": [
             {
-              "menuLabel": "All clothing",
+              "menuLabel": "Cajas sueldo mínmo",
               "menuLink": "/shop"
             },
             {
-              "menuLabel": "sweatshirts & hoodies",
+              "menuLabel": "Cajas hoy cobré",
               "menuLink": "/shop"
             },
             {
-              "menuLabel": "jackets",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "trousers",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "pants",
+              "menuLabel": "Cajas amo mucho a mi novia",
               "menuLink": "/shop"
             }
           ]
         },
         {
-          "categoryLabel": "accessories",
+          "categoryLabel": "packs personalizados",
           "submenu": [
             {
-              "menuLabel": "caps & scarves",
+              "menuLabel": "pack sueldo mínimo personalizado",
               "menuLink": "/shop"
             },
             {
-              "menuLabel": "bags",
+              "menuLabel": "pack ando pudiente",
               "menuLink": "/shop"
             }
           ]
@@ -129,12 +109,12 @@
       ]
     },
     {
-      "menuLabel": "journal",
+      "menuLabel": "Blog",
       "menuLink": "/blog",
       "category": null
     },
     {
-      "menuLabel": "About",
+      "menuLabel": "Acerca de nosotros",
       "menuLink": "/about",
       "category": null
     }

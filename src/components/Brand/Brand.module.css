@@ -1,12 +1,17 @@
 .root {
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.root svg {
+  width: 50%;
+  height: 50%;
 }
 
 @media (max-width: 800px) {
-    .root svg {
-        width: 90px;
-        height: 16.67px;
-    }
+  .root svg {
+    width: 70%;
+    height: 70%;
+  }
 }
